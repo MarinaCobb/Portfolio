@@ -1,0 +1,53 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.row {
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.display-4{
+    font-size: 2em;
+    font-family: Kaushan Script;
+}
+
+p {
+    font-family: Lato;
+    font-size: 16px;
+}
+
+.jumbotron {
+    align-content: center;
+    background-color: #9AE19D;
+}
+
+.profile-pic {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #9AE19D;
+    border-color: black;
+    font-family: Kaushan Script;
+    color: black;
+}
+
+
+.navbar-brand {
+    font-family: Kaushan Script;
+}
+
+#object{
+	background-color: #fe5652;
+
+	visibility: hidden;
+}
+
+.btn-link {
+    font-family: Lato;
+    color: darkblue;
+}
+
