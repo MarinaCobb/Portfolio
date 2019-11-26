@@ -8,22 +8,51 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css-style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 </head>
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Marina's Portfolio</a>
+    <img src="./images/Asset 1MC.png" width="20" height="30" alt="MC Logo">
+  
+  <a class="navbar-brand nav-justify-content-end" href="#">Marina's Portfolio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">JavaScript Tutorial</a>
-      <a class="nav-item nav-link" href="#">NYT API</a>
-      <a class="nav-item nav-link" href="#">Resume</a>
+      <a class="nav-item nav-link active" href="#CSS"><i class="fab fa-css3-alt"></i>CSS Creature<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#JST"><i class="fab fa-html5"></i>JavaScript Tutorial</a>
+      <a class="nav-item nav-link" href="#NYT"><i class="fas fa-newspaper"></i>NYT API</a>
+      <a class="nav-item nav-link" href="#Sugar"><i class="fas fa-cookie-bite"></i>Spoonful API</a>
+      <a class="nav-item nav-link" href="#Contact"><i class="fas fa-address-book"></i>Contact Me</a>
+    </div>
+
+      
+          <button class="btn btn-sm btn-primary" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-file"></i>Resume</button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Marina's Resume</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hello, I just wanted to take this time while I have your attention and thank you for visiting my site. I truly appreciate your time. You can download my resume below!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+        <button type="button" class="btn btn-primary"><a href="./images/MC Resume.pdf" download="MC Resume.pdf">Download</button></a>
+      </div>
     </div>
   </div>
+</div>
+</div>
 </nav>
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -49,24 +78,33 @@
       </div>
 
       <div class="jumbotron">
-  <h1 class="display-4">About Me</h1>
-  <p class="lead">Professionally speaking I am an 'S' in the DISC personality profile, but I am a lot more than a letter. My experiences in graphic design and marketing has gotten me where I am now. You can learn more about my work history below.</p>
+        <div class="row">
+        <div class="col-4">
+          <img class="rounded-circle z-depth-2" alt="headshot" src="./images/MarinaC.png"
+      data-holder-rendered="true">
+        </div>
+    <div class="col-8">
+    <h1 class="display-4">About Me</h1>
+  <p class="lead">I am an 'S' in the DISC personality profile, but I am a lot more than a letter. My curiosity for the coding aspect of what I am doing for my marketing job quickly turned into an affection. If anyone knows me, they know I lead with my heart and run full force with my passion. I made the decision to learn more about this amazing topic of coding and am currently enjoying my time at Eleven Fifty Academy. You can learn more about my work history below. Feel free to contact me so we can chat!</p>
+    </div>
 
+</div>
 
   <hr class="my-4">
+  
   <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Old Town Design Group
+          Old Town Design Group (Sept 2016 - Present)
         </button>
       </h2>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        As the Graphic Design Specialist I assist the marketing team in providing strategic thought and planning to increase brand awareness through external marketing initiatives. In short I am in charge of design and production of branding including logos, websites, landing pages, emails, PowerPoint presentations, photography and videos.
       </div>
     </div>
   </div>
@@ -74,13 +112,13 @@
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          PERQ
+          PERQ (May 2014 - Sept 2016)
         </button>
       </h2>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        As the Print Production Artist, I efficiently and accurately took a design from conception into a print-ready piece. I reviewed the contents and re-touched layouts in print or digital form and ensured brand standards across font, color, production quality and more.
       </div>
     </div>
   </div>
@@ -88,13 +126,13 @@
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Gannett (IndyStar)
+          Gannett-IndyStar (Mar 2013 - May 2014)
         </button>
       </h2>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        As the Graphic Artist, I designed advertisements in newspaper, magazines and other publications that meet the client's needs and department standards while meeting strict deadlines. I also collaborated with customer support on resolving any questions and/or concerns.
       </div>
     </div>
   </div>
@@ -103,28 +141,90 @@
 
 <div class="row">
   <div class="col-sm-6">
-    <div class="card">
+    <div class="card text-white bg-dark mb-3">
+        <img class="card-img-top" src="./images/JStutorial.jpg" alt="JS Tut">
       <div class="card-body">
-        <h5 class="card-title">JavaScript Tutorial Page</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">View Tutorial</a>
+        <h5 class="card-title"><a name="JST"></a>JavaScript Tutorial Page</h5>
+        <p class="card-text">This project displays skills of HTML & CSS. In this practice I've built an informative webpage about functions, objects and arrays.  </p>
+        <a href="https://marinacobb.github.io/Javascript-Tutorial-Website/" target="_blank"  class="btn btn-primary">View JS Tutorial</a>
       </div>
     </div>
   </div>
+
   <div class="col-sm-6">
-    <div class="card">
+    <div class="card text-white bg-dark mb-3">
+        <img class="card-img-top" src="./images/Newspaper.jpg" alt="NYT API">
       <div class="card-body">
-        <h5 class="card-title">New York Times API</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go to API</a>
+        <h5 class="card-title"><a name="NYT"></a>New York Times API</h5>
+        <p class="card-text">This project is a design of a Web client-facing page that consumes a RESTful API. It searches and display articles from The New York Times.</p>
+        <a href="https://marinacobb.github.io/NYT-API/index" target="_blank" class="btn btn-primary">Go to NYT API</a>
       </div>
     </div>
   </div>
 </div>
 
-<nav class="navbar sticky-top navbar-dark bg-dark">
+<div class="row">
+    <div class="col-sm-6">
+      <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="./images/CSSpic.jpg" alt="CSScreature">
+        <div class="card-body">
+          <h5 class="card-title"><a name="CSS"></a>CSS Creature</h5>
+          <p class="card-text">Using  knowledge of HTML & CSS, this project includes a codepen code snippet that is of a creature. Click below for my creation.</p>
+          <a href="https://codepen.io/Minaco/pen/BaaZrKj" target="_blank" class="btn btn-primary">View CSS Creature</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6">
+      <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="./images/cookie.png" alt="Nutritionix API">
+        <div class="card-body">
+          <h5 class="card-title"><a name="Sugar"></a>Spoonful of Sugar API</h5>
+          <p class="card-text"> Pulling from the Nutritionix API, this app tracks one's daily sugar intake. It showcases skills in HTML, CSS, JS and the use of RESTful API.</p>
+          <a href="https://spoonful-of-sugar.firebaseapp.com/" class="btn btn-primary" target="_blank" >Spoonful API</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="page-footer">
+  <form>
+      <h1><a name="Contact"></a>Contact Me</h1>
+        <div>
+          <form action="https://formspree.io/xaynypwa" method="POST">
+
+            <label>
+            <input type="text" name="name" class="formStyle" placeholder="Name (required)" required/>
+          </label>
+
+          <label>
+            <input type="email" name="_replyto" class="formStyle" placeholder="Email (required)" required/>
+          </label>
+
+          <label>
+              <textarea name="message" class="formStyle" placeholder="Message"></textarea>
+          </label>
+
+            <center> <button type="submit" value="Send" class= "sendBtn">Send</button></center>
+        </div>
+    </form>
+
+  <nav class="navbar sticky-top navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Back to top</a>
+
+  <div class="nav-link">
+  <ul class="nav justify-content-center">
+  <li class="nav-item bg-secondary text-white">
+    <a class="nav-link" href="https://github.com/MarinaCobb" target="_blank"><i class="fab fa-github-square"></i><span class="sr-only">GitHub</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/marina-cobb-9625bb63/" target="_blank"><i class="fab fa-linkedin"></i><span class="sr-only">LinkedIN</span></a>
+  </li>
+</ul>
+</div>
 </nav>
+
+    </footer>
 
     <script src="portfolio.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
