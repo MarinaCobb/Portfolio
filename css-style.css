@@ -62,6 +62,11 @@ div#jumbo {
 }
 
 
+.card {
+    background-color: white;
+}
+
+
 .page-footer {
     background-color: #9AE19D;
     margin-top: 5px;
