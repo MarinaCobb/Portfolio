@@ -1,162 +1,180 @@
 .selector-for-some-widget {
-    box-sizing: content-box;
-  }
-
-.row {
-    margin-bottom: 2em;
-    margin-right: 2em;
-    margin-left: 2em;
+  box-sizing: content-box;
 }
 
-.display-4{
-    align-items: center;
-    font-size: 2em;
-    font-family: Kaushan Script;
-    color: #343a40
+.row {
+  margin-bottom: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.display-4 {
+  align-items: center;
+  font-size: 2em;
+  font-family: Kaushan Script;
+  color: #343a40;
 }
 
 p {
-    font-family: Lato;
-    font-size: 16px;
+  font-family: Lato;
+  font-size: 16px;
 }
 
 .jumbotron {
-    align-content: center;
-    background-color: #9AE19D;
+  align-content: center;
+  background-color: #9ae19d;
 }
 
 img.rounded-circle {
-    max-width: 100%; 
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.034);
+  max-width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.034);
 }
 
 div#jumbo {
-    padding: none;
+  padding: none;
 }
 
 .btn-primary {
-    background-color: rgb(154, 225, 157);
-    border-color: #343a40;
-    font-family: Kaushan Script;
-    color: #343a40;
+  background-color: rgb(154, 225, 157);
+  border-color: #343a40;
+  font-family: Kaushan Script;
+  color: #343a40;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #343a40;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #343a40;
 }
 
 .navbar {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .navbar-brand {
-    font-family: Kaushan Script;
-    margin-left: 20px;
+  font-family: Kaushan Script;
+  margin-left: 20px;
 }
 
 .btn-link {
-    font-family: Kaushan Script;
-    color: #343a40;
+  font-family: Kaushan Script;
+  color: #343a40;
 }
-
 
 .card {
-    background-color: white;
+  background-color: white;
 }
 
+.color img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+.color img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
 
 .page-footer {
-    background-color: #9AE19D;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  background-color: #9ae19d;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 form {
-    padding-top: 5em;
-    padding-bottom: 5em;
-    padding-left: 5em;
-    padding-right: 5em;
-    align-content: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  align-content: center;
 }
 
 h1 {
-    text-align: center;
-    font-family: Kaushan Script;
-    font-size: 2.8em;
-    color: #343a40;
-  }
-  
-.formStyle { 
-    background-color: transparent;
-    padding: 20px;
-    width: 100%; 
-    margin-bottom: 20px; 
-    border-bottom-width: 1px; 
-    border-bottom-style: solid; 
-    border-bottom-color: #343a40; 
-    border-top-style: none; 
-    border-right-style: none; 
-    border-left-style: none; 
-    font-size: 1em;
-    font-weight: 100;
-    color: #ffffff;
-  }
+  text-align: center;
+  font-family: Kaushan Script;
+  font-size: 2.8em;
+  color: #343a40;
+}
 
-  label {
-      width: 100%;
-  }
-  
-  .sendBtn {
-    background-color:#343a40;
-    color:white;
-    font-family: Kaushan Script;
-    font-size:28px;
-    font-weight: 500;
-    padding:6px 24px;
-    margin-top: 50px;
-  }
-  
-  .formButton:hover {
-    background-color: white;
-    color:#343a40;
-  }
-  
-  .formButton:active {
-    position: absolute;
-  }
-  
-  /*To remove the outline that appears on clicking the input textbox*/
-  input:focus {
-    outline: none;
-  }
-  
-  /* To format the placeholder text color */
-  ::-webkit-input-placeholder {
-     color: #343a40;
-  }
-  
-  :-moz-placeholder { /* Firefox 18- */
-     color: #343a40;  
-  }
-  
-  ::-moz-placeholder {  /* Firefox 19+ */
-     color: #343a40;  
-  }
-  
-  :-ms-input-placeholder {  
-     color: #343a40;  
-  }
+.formStyle {
+  background-color: transparent;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #343a40;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  font-size: 1em;
+  font-weight: 100;
+  color: #ffffff;
+}
 
-.card-img-top{
-    max-height: 300px;
+label {
+  width: 100%;
+}
+
+.sendBtn {
+  background-color: #343a40;
+  color: white;
+  font-family: Kaushan Script;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 6px 24px;
+  margin-top: 50px;
+}
+
+.formButton:hover {
+  background-color: white;
+  color: #343a40;
+}
+
+.formButton:active {
+  position: absolute;
+}
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+  color: #343a40;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #343a40;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #343a40;
+}
+
+:-ms-input-placeholder {
+  color: #343a40;
+}
+
+.card-img-top {
+  max-height: 300px;
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
 .nav-link :hover {
-    color: #9AE19D;
+  color: #9ae19d;
 }
